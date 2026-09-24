@@ -37,11 +37,14 @@
         </section>
         <section id="form-section">
             <h2>Queremos conocerte</h2>
-            <form action="">
-                <input type="text" placeholder="Nombre">
-                <input type="email" placeholder="Email">
-                <label for="">Edad</label>
-                <input type="date">
+            <form action="" >
+                <fieldset>
+                    <legend>Datos personales</legend>legend>
+                    <input type="text" placeholder="Nombre" required>
+                    <input type="email" placeholder="Email" required>
+                    <label for="">Edad</label>
+                    <input type="date" required>
+                </fieldset>
                 <fieldset>
                     <legend>¿Qué café te gusta más?</legend>
                     <input type="radio" name="cafes" id="caramel-latte">
@@ -57,11 +60,15 @@
                         <textarea name="textarea-why" id=""></textarea>
                     </div>
                 </fieldset>
-                <fieldset>
+                <fieldset oninput="amount.value = caffeine.value">
                     <legend>¿Cuánto café tomás por día?</legend>
-                    <input type="range" min="0" max="10">
+                    <input type="range" min="0" max="10" value="0" id="caffeine">
+                    <output name="amount" for="caffeine"></output>
                 </fieldset>
             </form>
+            <dialog>
+                Gracias
+            </dialog>
         </section>
     </main>
 
