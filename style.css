@@ -14,7 +14,7 @@ header nav {
 
 #about,
 main {
-    margin: 0 1rem;
+    margin: 0 2rem;
 }
 
 footer {
@@ -25,4 +25,71 @@ a {
     text-decoration: none;
     color: #efebe0;
     font-weight: 500;
+}
+
+form {
+    width: 100%;
+}
+
+#form-article {
+    /* display: flex; */
+
+}
+
+/* #form-article div {
+    width: 50%;
+    margin-right: 1rem;
+} */
+
+form fieldset {
+    border-radius: 10px;
+}
+
+form #personal-fieldset,
+#choose-n-answer-fieldset,
+#range-fieldset {
+    margin: 1rem 0;
+}
+
+#personal-fieldset,
+#choose-n-answer-fieldset {
+    display: flex;
+    flex-direction: column;
+}
+
+#choose-n-answer-fieldset {
+    display: flex;
+}
+
+#choose-n-answer-fieldset div {
+    margin: 0.25rem 0;
+}
+
+
+#range-fieldset {
+    display: flex;
+}
+
+#range-fieldset input {
+    width: 100%;
+    margin-right: 1rem;
+
+}
+
+#range-fieldset output {
+    font-size: x-large;
+    font-weight: 600;
+}
+
+#why-div {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+}
+
+form button {
+    width: 6rem;
+    height: 3rem;
+    font-size: larger;
+    border-radius: 10px;
 }

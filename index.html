@@ -38,36 +38,68 @@
         </section>
         <section id="form-section">
             <h2>Queremos conocerte</h2>
-            <form action="">
-                <fieldset>
-                    <legend>Datos personales</legend>
-                    <input type="text" placeholder="Nombre" required>
-                    <input type="email" placeholder="Email" required>
-                    <label for="">Edad</label>
-                    <input type="date" required>
-                </fieldset>
-                <fieldset>
-                    <legend>¿Qué café te gusta más?</legend>
-                    <input type="radio" name="cafes" id="caramel-latte">
-                    <label for="caramel-latte">Caramel Latte</label>
-                    <input type="radio" name="cafes" id="americano">
-                    <label for="americano">Americano</label>
-                    <input type="radio" name="cafes" id="capuccino">
-                    <label for="capuccino">Capuccino</label>
-                    <input type="radio" name="cafes" id="mocca">
-                    <label for="mocca">Mocca</label>
-                    <div>
-                        <label for="textarea-why">¿Por qué?</label>
-                        <textarea name="textarea-why" id=""></textarea>
-                    </div>
-                </fieldset>
-                <fieldset oninput="amount.value = caffeine.value">
-                    <legend>¿Cuánto café tomás por día?</legend>
-                    <input type="range" min="0" max="10" value="0" id="caffeine">
-                    <output name="amount" for="caffeine"></output>
-                </fieldset>
-                <button type="submit" id="submit-answers-btn">Enviar</button>
-            </form>
+            <article id="form-article">
+
+
+                <div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis illo quaerat, asperiores
+                        vitae,
+                        autem sit labore numquam, est possimus molestiae odit modi. Dolore quae dolores voluptatem
+                        alias,
+                        quo sint voluptatum eligendi maiores, necessitatibus excepturi, deleniti laborum! Rem ipsam,
+                        sequi
+                        ex ipsa repellendus repudiandae quidem possimus dolores consequatur quos, dolor cupiditate ut
+                        quod
+                        autem dignissimos. Rem aspernatur doloribus atque provident. Molestiae exercitationem eius in
+                        neque
+                        soluta alias suscipit! Provident similique modi voluptatum explicabo esse corporis inventore et
+                        dolorem unde labore deserunt delectus animi, natus, rem cum quisquam tenetur recusandae totam
+                        nihil
+                        adipisci asperiores consequuntur nam! Eveniet fuga commodi beatae animi in!
+                    </p>
+                </div>
+                <form action="">
+                    <fieldset id="personal-fieldset">
+                        <legend>Datos personales</legend>
+                        <input type="text" placeholder="Nombre" required>
+                        <input type="email" placeholder="Email" required>
+                        <label for="">Edad</label>
+                        <input type="date" required>
+                    </fieldset>
+                    <fieldset id="choose-n-answer-fieldset">
+                        <legend>¿Qué café te gusta más?</legend>
+                        <div id="choose">
+                            <div>
+                                <input type="radio" name="cafes" id="caramel-latte">
+                                <label for="caramel-latte">Caramel Latte</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="cafes" id="americano">
+                                <label for="americano">Americano</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="cafes" id="capuccino">
+                                <label for="capuccino">Capuccino</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="cafes" id="mocca">
+                                <label for="mocca">Mocca</label>
+                            </div>
+                        </div>
+                        <div id="why-div">
+                            <label for="textarea-why">¿Por qué?</label>
+                            <textarea name="textarea-why" id=""></textarea>
+                        </div>
+                    </fieldset>
+                    <fieldset id="range-fieldset" oninput="amount.value = caffeine.value">
+                        <legend>¿Cuánto café tomás por día?</legend>
+                        <input type="range" min="0" max="10" value="0" id="caffeine">
+                        <output name="amount" for="caffeine">0</output>
+                    </fieldset>
+                    <button type="submit" id="submit-answers-btn">Enviar</button>
+                </form>
+            </article>
         </section>
     </main>
 
