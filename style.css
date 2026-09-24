@@ -10,6 +10,21 @@ body {
 
 header nav {
     background-color: #0a0200;
+    height: 100%;
+}
+
+header nav {
+    display: flex;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+
+}
+
+header nav ul li {
+    margin: 0 1rem;
 }
 
 #about,
