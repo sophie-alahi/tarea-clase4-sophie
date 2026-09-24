@@ -10,12 +10,14 @@
 <body>
 
     <header>
-        <nav><ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul></nav>
+        <nav>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </nav>
         <section id="about">
             <h1>Coffee Event</h1>
             <p>presentacion Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, ex delectus! Repellat
@@ -31,10 +33,37 @@
     <main>
         <section id="us">
             <h2>¿Quiénes somos?</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim mollitia minus similique optio dolore soluta ex placeat non, doloremque porro voluptates! Ratione tempora perspiciatis repudiandae, officiis repellat nemo error ea?</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim mollitia minus similique optio dolore
+                soluta ex placeat non, doloremque porro voluptates! Ratione tempora perspiciatis repudiandae, officiis
+                repellat nemo error ea?</p>
         </section>
         <section>
             <h2>Queremos conocerte</h2>
+            <form action="">
+                <input type="text" placeholder="Nombre">
+                <input type="email" placeholder="Email">
+                <label for="">Edad</label>
+                <input type="date">
+                <fieldset>
+                    <legend>¿Qué café te gusta más?</legend>
+                    <input type="radio" name="cafes" id="caramel-latte">
+                    <label for="caramel-latte">Caramel Latte</label>
+                    <input type="radio" name="cafes" id="americano">
+                    <label for="americano">Americano</label>
+                    <input type="radio" name="cafes" id="capuccino">
+                    <label for="capuccino">Capuccino</label>
+                    <input type="radio" name="cafes" id="mocca">
+                    <label for="mocca">Mocca</label>
+                    <div>
+                        <label for="textarea-why">¿Por qué?</label>
+                        <textarea name="textarea-why" id=""></textarea>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>¿Cuánto café tomás por día?</legend>
+                    <input type="range" min="0" max="10">
+                </fieldset>
+            </form>
         </section>
     </main>
 
