@@ -42,20 +42,6 @@ a {
     font-weight: 500;
 }
 
-form {
-    width: 100%;
-}
-
-#form-article {
-    /* display: flex; */
-
-}
-
-/* #form-article div {
-    width: 50%;
-    margin-right: 1rem;
-} */
-
 form fieldset {
     border-radius: 10px;
 }
