@@ -76,7 +76,7 @@ footer {
 }
 
 form {
-     width: 50%;
+    min-width: 800px;
 }
 form fieldset {
     border-radius: 10px;
