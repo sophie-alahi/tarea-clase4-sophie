@@ -36,6 +36,14 @@ header nav ul li {
     margin: 0 1rem;
 }
 
+#about-n-figure {
+    display: flex;
+}
+
+#about, header figure {
+    width: 50%;
+}
+
 #about,
 main {
     margin: 0 2rem;
