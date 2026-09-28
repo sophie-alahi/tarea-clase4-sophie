@@ -42,6 +42,9 @@ a {
     font-weight: 500;
 }
 
+form {
+     width: 50%;
+}
 form fieldset {
     border-radius: 10px;
 }
@@ -94,3 +97,4 @@ form button {
     font-size: larger;
     border-radius: 10px;
 }
+
