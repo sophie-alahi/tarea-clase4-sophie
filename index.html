@@ -10,113 +10,118 @@
 </head>
 
 <body>
+    <nav id="top-nav">
+        <ul>
+            <li class="logo">
+                <a href="#">
+                    <img src="./logos/truffee-logo-utn-clase4/android-chrome-192x192.png" alt="Truffee">
+                    <p>Truffee</p>
+                </a>
+            </li>
+            <li><a href="#us">¿Quiénes somos?</a></li>
+            <li><a href="#form-section">Queremos conocerte</a></li>
+        </ul>
+    </nav>
+    <div id="container">
+        <header>
 
-    <header>
-        <nav>
-            <ul>
-                <li class="logo">
-                    <a href="#">
-                        <img src="./logos/truffee-logo-utn-clase4/android-chrome-192x192.png" alt="Truffee">
-                        <p>Truffee</p>
-                    </a>
-                </li>
-                <li><a href="#us">¿Quiénes somos?</a></li>
-                <li><a href="#form-section">Queremos conocerte</a></li>
-            </ul>
-        </nav>
-        <section id="about-n-figure">
-            <article id="about">
-                <h1>Truffee: Coffee Event</h1>
-                <p>
-                    Baristas de toda Latinoamérica se reunen para demostrar sus habilidades en el maravilloso mundo del
-                    café
-                    utilizando nuestros <strong>productos 100% naturales</strong> y apacionades del café para que los
-                    degusten y disfruten de un día entero de de olores y sabores únicos.</strong>
-                </p>
-            </article>
-            <figure>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJDhK94LJG_VDJao3F0puloc4e8zwQHvjOInqsyD5fYQ&s=10"
-                    alt="Caramel IcedCoffee, servido por Osita Café" width="200px">
-                <figcaption>
-                    Caramel IcedCoffe, servido por <em><a href="#">Osita Café</a></em>, utilizando nuestro café.
-                </figcaption>
-            </figure>
-        </section>
-    </header>
-
-    <main>
-        <section id="us">
-            <h2>¿Quiénes somos?</h2>
-            <p>
-                Somos Truffee&copy;, <strong>lideres del mercado del café de especialidad 100% natural</strong> y
-                organizadores del evento masivo <em>Trufee: Coffee Event&copy;</em>. .
-            </p>
-        </section>
-        <section id="form-section">
-            <h2>¿Sos consumidore de nuestros productos? ¡Queremos conocerte!</h2>
-            <article id="form-article">
-                <div>
+            <section id="about-n-figure">
+                <article id="about">
+                    <h1>Truffee: Coffee Event</h1>
                     <p>
-                        Unite a nuestro newsletter para que estés informade de todo relacionado a Truffee completando el
-                        siguiente formulario.
+                        Baristas de toda Latinoamérica se reunen para demostrar sus habilidades en el maravilloso mundo
+                        del
+                        café
+                        utilizando nuestros <strong>productos 100% naturales</strong> y apacionades del café para que
+                        los
+                        degusten y disfruten de un día entero de de olores y sabores únicos.</strong>
                     </p>
-                </div>
-                <form action="">
-                    <fieldset id="personal-fieldset">
-                        <legend>Datos personales</legend>
-                        <input type="text" placeholder="Nombre" required>
-                        <input type="email" placeholder="Email" required>
-                        <label for="">Edad</label>
-                        <input type="date">
-                    </fieldset>
-                    <fieldset id="choose-n-answer-fieldset">
-                        <legend>¿Qué café te gusta más?</legend>
-                        <div id="choose">
-                            <div>
-                                <input type="radio" name="cafes" id="caramel-latte">
-                                <label for="caramel-latte">Caramel Latte</label>
-                            </div>
-                            <div>
-                                <input type="radio" name="cafes" id="americano">
-                                <label for="americano">Americano</label>
-                            </div>
-                            <div>
-                                <input type="radio" name="cafes" id="capuccino">
-                                <label for="capuccino">Capuccino</label>
-                            </div>
-                            <div>
-                                <input type="radio" name="cafes" id="mocca">
-                                <label for="mocca">Mocca</label>
-                            </div>
-                            <div>
-                                <input type="radio" name="cafes" id="otro">
-                                <label for="otro">Otro</label>
-                            </div>
-                        </div>
-                        <div id="why-div">
-                            <label for="textarea-why">¿Por qué?</label>
-                            <textarea name="textarea-why"></textarea>
-                        </div>
-                    </fieldset>
-                    <fieldset id="range-fieldset" oninput="amount.value = caffeine.value">
-                        <legend>¿Cuánto café tomás por día?</legend>
-                        <input type="range" min="0" max="10" value="0" id="caffeine">
-                        <output name="amount" for="caffeine">0</output>
-                    </fieldset>
-                    <button type="submit" id="submit-answers-btn">Enviar</button>
-                </form>
-            </article>
-        </section>
+                </article>
+                <figure>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJDhK94LJG_VDJao3F0puloc4e8zwQHvjOInqsyD5fYQ&s=10"
+                        alt="Caramel IcedCoffee, servido por Osita Café" width="200px">
+                    <figcaption>
+                        Caramel IcedCoffe, servido por <em><a href="#">Osita Café</a></em>, utilizando nuestro café.
+                    </figcaption>
+                </figure>
+            </section>
+        </header>
 
-        <section id="tutorial">
-            <h2>¡Nuestros productos son internacionales!</h2>
-            <p>En este video, Diego, de España, muestra como hacer un Cold Brew con nuestros productos.</p>
-            <iframe src="https://www.youtube.com/embed/y524jwyl0uI?si=Qy5LmQxIid0q9-C4&amp;start=60"
-                frameborder="0"></iframe>
-        </section>
+        <main>
+            <section id="us">
+                <h2>¿Quiénes somos?</h2>
+                <p>
+                    Somos Truffee&copy;, <strong>lideres del mercado del café de especialidad 100% natural</strong> y
+                    organizadores del evento masivo <em>Trufee: Coffee Event&copy;</em>. .
+                </p>
+            </section>
+            <section id="form-section">
+                <h2>¿Sos consumidore de nuestros productos? ¡Queremos conocerte!</h2>
+                <article id="form-article">
+                    <div>
+                        <p>
+                            Unite a nuestro newsletter para que estés informade de todo relacionado a Truffee
+                            completando el
+                            siguiente formulario.
+                        </p>
+                    </div>
+                    <form action="">
+                        <fieldset id="personal-fieldset">
+                            <legend>Datos personales</legend>
+                            <input type="text" placeholder="Nombre" required>
+                            <input type="email" placeholder="Email" required>
+                            <label for="">Edad</label>
+                            <input type="date">
+                        </fieldset>
+                        <fieldset id="choose-n-answer-fieldset">
+                            <legend>¿Qué café te gusta más?</legend>
+                            <div id="choose">
+                                <div>
+                                    <input type="radio" name="cafes" id="caramel-latte">
+                                    <label for="caramel-latte">Caramel Latte</label>
+                                </div>
+                                <div>
+                                    <input type="radio" name="cafes" id="americano">
+                                    <label for="americano">Americano</label>
+                                </div>
+                                <div>
+                                    <input type="radio" name="cafes" id="capuccino">
+                                    <label for="capuccino">Capuccino</label>
+                                </div>
+                                <div>
+                                    <input type="radio" name="cafes" id="mocca">
+                                    <label for="mocca">Mocca</label>
+                                </div>
+                                <div>
+                                    <input type="radio" name="cafes" id="otro">
+                                    <label for="otro">Otro</label>
+                                </div>
+                            </div>
+                            <div id="why-div">
+                                <label for="textarea-why">¿Por qué?</label>
+                                <textarea name="textarea-why"></textarea>
+                            </div>
+                        </fieldset>
+                        <fieldset id="range-fieldset" oninput="amount.value = caffeine.value">
+                            <legend>¿Cuánto café tomás por día?</legend>
+                            <input type="range" min="0" max="10" value="0" id="caffeine">
+                            <output name="amount" for="caffeine">0</output>
+                        </fieldset>
+                        <button type="submit" id="submit-answers-btn">Enviar</button>
+                    </form>
+                </article>
+            </section>
 
-    </main>
+            <section id="tutorial">
+                <h2>¡Nuestros productos son internacionales!</h2>
+                <p>En este video, Diego, de España, muestra como hacer un Cold Brew con nuestros productos.</p>
+                <iframe src="https://www.youtube.com/embed/y524jwyl0uI?si=Qy5LmQxIid0q9-C4&amp;start=60"
+                    frameborder="0"></iframe>
+            </section>
 
+        </main>
+
+    </div>
     <footer>
         <section class="logo">
             <a href="#">
