@@ -50,10 +50,15 @@ footer {
     margin-top: 4rem;
 }
 
-a {
+header a {
     text-decoration: none;
     color: #efebe0;
     font-weight: 500;
+}
+
+header a:hover {
+    text-decoration: underline;    
+    text-underline-offset: 0.5rem;
 }
 
 form {
@@ -121,4 +126,6 @@ form button {
     margin-top: 2rem;
 }
 
-
+footer a {
+    color: white;
+}
